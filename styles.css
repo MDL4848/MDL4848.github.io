@@ -36,3 +36,6 @@ a {
   text-align: center;
   aspect-ratio: 1;
 }
+.project-img {
+    width: 280px;
+}
