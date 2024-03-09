@@ -1,12 +1,12 @@
 var projectGrid = '';
-const projects = {
+const projects = [
 
     {"Name": "VidRecover", "URL": "https://github.com/MDL4848/VidRecover"}
 
 
 
 
-}
+]
 
 for (const project in projects) {
 
