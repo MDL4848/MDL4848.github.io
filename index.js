@@ -1,6 +1,7 @@
 var projectGrid = '';
 const projects = {"VidRecover": {"URL": "https://github.com/MDL4848/VidRecover", "Image": "images/VidRecover.png"}}
 
+fetch('./projects.json')
 
 
 
