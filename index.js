@@ -1,6 +1,6 @@
 var projectGrid = '';
 
-import projects from "./version.json" with { type: "json" };
+import projects from "./version.json" assert { type: "json" };
 
 
 
