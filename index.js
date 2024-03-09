@@ -10,7 +10,7 @@ const projects = [
 
 for (const project in projects) {
 
-    projectGrid += '<div class='grid-item'>' + project + '</div>'
+    projectGrid += '<div class="grid-item">' + project + '</div>'
 }
 
 
