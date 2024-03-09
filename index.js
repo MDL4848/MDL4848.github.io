@@ -8,7 +8,7 @@ const projects = {"VidRecover": {"URL": "https://github.com/MDL4848/VidRecover",
 
 for (const project in projects) {
 
-    projectGrid += '<div class="grid-item"><img class="project-img" href="' + projects[project]['Image']   + '"></img><p>' + project + '</p></div>'
+    projectGrid += '<div class="grid-item"><img class="project-img" src="' + projects[project]['Image']   + '"></img><p>' + project + '</p></div>'
 }
 
 
