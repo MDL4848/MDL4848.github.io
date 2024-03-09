@@ -1,7 +1,10 @@
 var projectGrid = '';
-const projects = {"VidRecover": {"URL": "https://github.com/MDL4848/VidRecover", "Image": "images/VidRecover.png"}}
 
-fetch('./projects.json')
+import projects from "./version.json" with { type: "json" };
+
+
+
+
 
 
 
