@@ -42,4 +42,5 @@ a {
 }
 .project-img {
     width: 280px;
+    image-rendering: pixelated;
 }
