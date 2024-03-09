@@ -1,5 +1,5 @@
 var projectGrid = '';
-const projects = {"VidRecover": {"URL": "https://github.com/MDL4848/VidRecover"}}
+const projects = {"VidRecover": {"URL": "https://github.com/MDL4848/VidRecover", "Image": "/images/VidRecover.png"}}
 
 
 
@@ -8,7 +8,7 @@ const projects = {"VidRecover": {"URL": "https://github.com/MDL4848/VidRecover"}
 
 for (const project in projects) {
 
-    projectGrid += '<div class="grid-item"><p>' + project + '</p></div>'
+    projectGrid += '<div class="grid-item"><img class="project-img" href="' + projects[project]['Image']   + '"></img><p>' + project + '</p></div>'
 }
 
 
