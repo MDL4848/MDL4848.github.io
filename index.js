@@ -2,18 +2,8 @@ var projectGrid = '';
 
 import projects from "./projects.json" assert { type: "json" };
 
-
-
-
-
-
-
-
-
 for (const project in projects) {
     projectGrid += '' +
-    
-    
     
     '<div class="grid-item">' +
         '<div>' +
@@ -22,12 +12,6 @@ for (const project in projects) {
         '</div>' +
     '</div>'
 
-
-
-
-
-
 }
-
 
 document.getElementById("projectGrid").innerHTML = projectGrid;
