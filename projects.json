@@ -1,6 +1,7 @@
 {
 
-"VidRecover": {"URL": "https://github.com/MDL4848/VidRecover", "Image": "images/VidRecover.png", "Description": "An open-source, Python-based solution for tracking deleted/privated videos in YouTube playlists"}
+"VidRecover": {"URL": "https://github.com/MDL4848/VidRecover", "Image": "images/VidRecover.png", "Description": "An open-source, Python-based solution for tracking deleted/privated videos in YouTube playlists"},
+"VidRecover-Lite": {"URL": "https://github.com/MDL4848/VidRecover-Lite", "Image": "images/VidRecover-Lite.png", "Description": "A stripped-down, simpler version of VidRecover"}
 
 
 
