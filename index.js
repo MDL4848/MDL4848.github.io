@@ -7,7 +7,7 @@ for (const project in projects) {
     
     '<div class="grid-item">' +
         '<div>' +
-            '<img class="project-img" src="' + projects[project]['Image']   + '"></img>' +
+            '<a href="' + projects[project]["URL"] + '"><img class="project-img" src="' + projects[project]['Image']   + '"></img></a>' +
             '<h2 style="margin: 0px"><a href="' + projects[project]["URL"] + '">'    + project + '</a></h2>' +
             '<p style="margin: 0px">' +  projects[project]["Description"] + '</p>' +
             

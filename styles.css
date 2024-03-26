@@ -17,6 +17,7 @@ summary:focus{
 
 a {
     color: rgba(46, 184, 223, 1);
+    text-decoration: none;
 }
 
 .grid-container {
